@@ -26,4 +26,4 @@ This is Sripathi here I will host all the document related to system technologie
 
 *   OpenVZ
 *   Docker
-*   AWS
+    *   AWS
