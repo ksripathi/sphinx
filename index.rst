@@ -1,41 +1,37 @@
-$project
-========
+Welcome to Django Kong's documentation!
+=======================================
 
-$project will solve your problem of where to start with documentation,
-by providing a basic explanation of how to do it easily.
+A simple example
+-----------------
 
-Look how easy it is to use:
+You can see a `basic version <http://golem.ericholscher.com/kong/>`_ running for my personal site. It is super barebones, but it should give you an idea of what exactly is possible.
 
-    import project
-    # Get your stuff done
-    project.do_stuff()
+Tests are written using  `Twill <http://twill.idyll.org/commands.html>`_, which allows for easy functional testing of web apps.
 
-Features
+Get the code
+-------------
+
+The `source <http://github.com/ericholscher/django-kong>`_ is available on Github. I would like to thank `Nathan Borror <http://nathanborror.com>`_ for the design parts that are pretty :)
+
+The mailing list for the project is located at google groups: http://groups.google.com/group/django-testing
+
+Contents
 --------
 
-- Be awesome
-- Make things faster
+.. toctree::
+   :maxdepth: 2
+   :glob:
 
-Installation
-------------
+   install
+   management_commands
+   settings
+   overview
+   meta
+   roadmap
 
-Install $project by running:
+What's with the name?
+----------------------
 
-    install project
+Originally Kong was called paradigm, because it was going to change the way we thought about deployment. After much convincing from coworkers that this was too enterprisey, during the Djangocon 09 sprints, I was given the name Donkey Kong. I thought it would be a fun play on words to name a project django kong, because it sounds like Djangocon, and it plays off of Donkey Kong. Then I just needed to find a way to associate Kong with what the project actually does, because it's a Deployment Testing Tool for King/Donkey Kong sized sites.
 
-Contribute
-----------
 
-- Issue Tracker: github.com/$project/$project/issues
-- Source Code: github.com/$project/$project
-
-Support
--------
-
-If you are having issues, please let us know.
-We have a mailing list located at: project@google-groups.com
-
-License
--------
-
-The project is licensed under the BSD license.
