@@ -1,4 +1,4 @@
-Welcome to Django Kong's documentation!
+Welcome to Sripathi Kammari's Site
 =======================================
 
 A simple example
